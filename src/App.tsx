@@ -1,22 +1,12 @@
 import React from 'react';
-import './App.pcss';
+import { Header } from './components/layout/Header';
+import { Map } from './components/map/Map';
 
 export const App = () => {
   return (
     <>
-      <header>
-        <h1>
-          <span>Mega</span> Ogłoszenia
-        </h1>
-        <button>Dodaj Ogłoszenie</button>
-        <div className="search">
-          <input type="text" />
-          <button>Szukaj</button>
-        </div>
-      </header>
-      <div className="map">
-        ...
-      </div>
+      <Header/>
+      <Map/>
     </>
   );
 };
