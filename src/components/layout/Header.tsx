@@ -8,7 +8,7 @@ export const Header = () => {
     const [inputVal, setInputVal] = useState(search);
 
     const setSearchFromLocalState = (e: SyntheticEvent) => {
-        e.preventDefault;
+        e.preventDefault();
         setSearch(inputVal);
     };
 
